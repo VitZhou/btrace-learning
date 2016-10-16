@@ -67,7 +67,7 @@ java -javaagent:btrace-agent.jar=[<agent-arg>[,<agent-arg>]*]? <launch-args>
 要运行的脚本必须已经由btracec编译为字节码（.class文件）。
 
 ##btracec
-btracec是编译脚本跟踪到class文件的命令。
+btracec是编译class文件的命令。
 语法是:
 ```shell
 btracec [-cp <classpath>] [-d <directory>] <one-or-more-BTrace-.java-files>
