@@ -36,8 +36,8 @@ BTrace Maven支持
 要引导一个新的项目中使用:
 ```shell
 mvn archetype:generate
-  -DgroupId=[your project's group id]
-  -DartifactId=[your project's artifact id]
+  -DgroupId=[你的项目 group id]
+  -DartifactId=[你的项目的 artifact id]
   -DarchetypeArtifactId=btrace-project-archetype
 ```
 

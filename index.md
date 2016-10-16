@@ -36,7 +36,8 @@ BTrace的工作原理是动态的（字节码）改编已运行Java程序的类�
 ####安装
 1. 首先,你需要从[release page](https://github.com/btraceio/btrace/releases/latest)下载文件.解压二进制文件(.zip或.tar.gz)到你指定的目录中
 1. 设置系统环境变量BTRACE_HOME指向包含展开的分布的目录
-1. 为方便起见，可以使用$ORACLE_HOME/bin增强系统环境变量PATH。(或者，安装* .rpm的或* .deb软件包之一)
+1. 为方便起见，可以使用$ORACLE_HOME/bin添加到系统环境变量PATH中。(或者，安装* .rpm的或* .deb软件包之一)
+1. 输入命令btrace -h查看是否安装成功
 
 ####运行
 - <btrace>/bin/btrace <PID> <trace_script> 将附加到具有给定PID的java应用程序，并编译并提交跟踪脚本
