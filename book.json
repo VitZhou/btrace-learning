@@ -30,6 +30,7 @@
     "splitter",
     "toc",
     "emphasize",
+    "edit-link", 
     "tbfed-pagefooter"
   ],
   "pluginsConfig": {
