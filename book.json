@@ -45,6 +45,10 @@
       "addClass": true,
       "className": "toc"
     },
+	"edit-link": {
+        "base": "https://github.com/henryZ/btrace-learning/edit/master",
+        "label": "Edit"
+    },
     "tbfed-pagefooter": {
       "copyright":"Copyright &copy www.gitbook.com/@herryZ 2016",
       "modify_label": "该文件修订时间：",
