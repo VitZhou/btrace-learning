@@ -40,9 +40,9 @@ BTrace的工作原理是动态的（字节码）改编已运行Java程序的类�
 1. 输入命令btrace -h查看是否安装成功
 
 ####运行
-- <btrace>/bin/btrace <PID> <trace_script> 将附加到具有给定PID的java应用程序，并编译并提交跟踪脚本
-- <btrace>/bin/track <trace script> 将编译提供的跟踪脚本
-- <btrace>/bin/btracer <compiled_script> <args to launch a java app> 将启动指定的java应用程序，其中btrace代理运行，并且之前由btracec编译的脚本加载
+- <<btrace>>/bin/btrace <<PID>> <<trace_script>> 将附加到具有给定PID的java应用程序，并编译并提交跟踪脚本
+- <<btrace>>/bin/tracer <<trace script>> 将编译提供的跟踪脚本
+- <<btrace>>/bin/btracer <<compiled_script>> <<args to launch a java app>> 将启动指定的java应用程序，其中btrace代理运行，并且之前由btracec编译的脚本加载
 
 ####maven集成
 [maven插件](maven_plugin.md)提供了对BTrace脚本的轻松编译
